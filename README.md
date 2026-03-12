@@ -1,7 +1,7 @@
 Assignment 1 — K3s on AWS
 Full Name: Nosipho Nocanda  
 Student Number: 223227110  
-Repository: assignment-1-[yourname]  
+Repository: assignment-1-Nosipho2022 
 Date: March 2026
 ---
 Table of Contents
@@ -374,4 +374,4 @@ Virtualization and Containerization for Scalable Services
 This assignment demonstrated how virtualization and containerization work together to enable scalable services. EC2 instances are virtual machines running on AWS's physical hardware — each node is a lightweight OS instance isolated from others. Containerization, via containerd and Kubernetes, adds another layer of abstraction: applications run in containers that share the OS kernel but are isolated in terms of filesystem, network, and process space.
 This two-layer approach enables horizontal scaling — adding worker nodes to the cluster scales compute capacity without reconfiguring applications. Kubernetes handles scheduling, load balancing, and self-healing automatically. For 5G and cloud-native services, this means network functions can scale dynamically based on traffic load, ensuring quality of service without manual intervention.
 ---
-Repository: assignment-1-[yourname] | Student: 223227110
+Repository: assignment-1-Nosipho2022 | Student: 223227110
