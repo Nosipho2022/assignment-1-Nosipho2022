@@ -226,7 +226,7 @@ sudo kubectl get svc nginx
 ##Evidence of Deployment
 > **Screenshots below show the actual deployment. Terminal prompts display the node hostname confirming originality.**
 1. kubectl get nodes — All 3 Nodes Ready
-![kubectl get nodes](screenshots/kubectl-get-nodes.png)
+![kubectl get nodes](https://github.com/Nosipho2022/assignment-1-Nosipho2022/blob/main/Screenshot%202026-03-12%20125537.png)
 2. kubectl get pods -A — All System Pods Running
 ![kubectl get pods](screenshots/kubectl-get-pods.png)
 3. AWS Console —![EC2 Instances](https://github.com/Nosipho2022/assignment-1-Nosipho2022/blob/main/Screenshot%202026-03-11%20225343.png)
