@@ -227,13 +227,13 @@ sudo kubectl get svc nginx
 > **Screenshots below show the actual deployment. Terminal prompts display the node hostname confirming originality.**
 1. kubectl get nodes — All 3 Nodes Ready
 ![kubectl get nodes](https://github.com/Nosipho2022/assignment-1-Nosipho2022/blob/main/Screenshot%202026-03-12%20125537.png)
-2. kubectl get pods -A — All System Pods Running
-![kubectl get pods](screenshots/kubectl-get-pods.png)
+2. Pods running -![pods running](https://github.com/Nosipho2022/assignment-1-Nosipho2022/blob/main/Screenshot%202026-03-12%20123312.png)
+![pods running](https://github.com/Nosipho2022/assignment-1-Nosipho2022/blob/main/Screenshot%202026-03-12%20123409.png)
 3. AWS Console —![EC2 Instances](https://github.com/Nosipho2022/assignment-1-Nosipho2022/blob/main/Screenshot%202026-03-11%20225343.png)
 4. nginx Welcome Page — NodePort Access Confirmed
 ![nginx](https://github.com/Nosipho2022/assignment-1-Nosipho2022/blob/main/Screenshot%202026-03-12%20195410.png)
-5. K3s Install Output on master-1
-![K3s Install](screenshots/k3s-install.png)
+5. K3s Unstall Output on master-1
+![K3s Unstall](https://github.com/Nosipho2022/assignment-1-Nosipho2022/blob/main/Screenshot%202026-03-12%20201136.png)
 ---
 NGINX Ingress Controller
 K3s deploys Helm charts automatically via manifests placed in `/var/lib/rancher/k3s/server/manifests/`.
