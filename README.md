@@ -230,7 +230,8 @@ sudo kubectl get svc nginx
 2. kubectl get pods -A — All System Pods Running
 ![kubectl get pods](screenshots/kubectl-get-pods.png)
 3. AWS Console — EC2 Instances Running
-![EC2 Instances](screenshots/ec2-instances.png)
+![EC2 Instances](<img width="1355" height="593" alt="Screenshot 2026-03-11 230517" src="https://github.com/user-attachments/assets/1a0ee446-6d98-4c8d-bf70-ba7602b088e4" />
+)
 4. nginx Welcome Page — NodePort Access Confirmed
 ![nginx](screenshots/nginx-welcome.png)
 5. K3s Install Output on master-1
