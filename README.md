@@ -1,8 +1,8 @@
-Assignment 1 — K3s on AWS
-Full Name: Nosipho Nocanda  
-Student Number: 223227110  
-Repository: assignment-1-Nosipho2022 
-Date: March 2026
+## Assignment 1 — K3s on AWS
+## Full Name: Nosipho Nocanda  
+## Student Number: 223227110  
+## Repository: assignment-1-Nosipho2022 
+## Date: 23March 2026
 ---
 ## Table of Contents
 1. [System Requirements](#system-requirements)
@@ -407,9 +407,11 @@ After examining the service logs using:
 
 ```bash
 journalctl -xeu k3s.service
+```
 I discovered that the cluster token had been typed incorrectly, with two characters transposed. To resolve this issue, I uninstalled K3s on the affected node, carefully copied the correct token from the primary master node using:
-
+```
 cat /var/lib/rancher/k3s/server/node-token | tr -d '\n'
+```
 I then reinstalled K3s using the corrected token.
 
 Another issue occurred when attempting to use a .ppk SSH key format in AWS CloudShell, which only supports .pem keys. This required creating a new key pair and understanding the difference between PuTTY key format (.ppk) and OpenSSH format (.pem).
